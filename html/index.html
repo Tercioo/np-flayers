@@ -1,0 +1,60 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+		<link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<div id="flayerpanel" style="align-self: center;">
+			<label" id="title">Glue a Flayer Here</label>
+			<hr>
+			<div id="form">
+				<label id="regulartext">Flayer Image:</label>
+				<input id="url" name="url" placeholder=""/>
+				<table><tr><td height="8px"></td></tr></table>
+				<label id="regulartext">Expire:</label>
+				<table>
+					<tr>
+						<td width="60px">
+							<input type="radio" id="time1" name="time" value="time1" checked>
+						</td>
+						<td>
+							<label id="radiotext" for="time1">Short</label>
+						</td>
+					</tr>
+					<tr>
+						<td width="60px">
+							<input type="radio" id="time2" name="time" value="time2">
+						</td>
+						<td>
+							<label id="radiotext" for="time2">Medium</label>
+						</td>
+					</tr>
+					<tr>
+						<td width="60px">
+							<input type="radio" id="time3" name="time" value="time3">
+						</td>
+						<td>
+							<label id="radiotext" for="time3">Long</label> 
+						</td>
+					<tr>
+				</table>
+				<hr>
+				<table>
+					<tr>
+						<td width="175px">
+							<input type="button" id="cancel" name="cancel" value="Cancel">
+						</td>
+						<td width="175px" align="right">
+							<input type="button" id="placeflayer" name="placeflayer" value="Place Flayer">
+						</td>
+					<tr>
+				</table>
+			</div>
+		</div>
+		
+		<script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
